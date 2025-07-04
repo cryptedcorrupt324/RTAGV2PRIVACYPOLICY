@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Remi Taggering V2 – Privacy Policy</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
+  <canvas id="particles"></canvas>
+
   <div class="landing" id="landing">
     <h1 class="landing-title">REMI TAGGERING V2</h1>
     <button class="landing-btn" id="enterBtn">View Privacy Policy</button>
@@ -15,84 +17,116 @@
 
   <div class="policy-container hidden" id="policy">
     <header class="header">
-      <h1>Remi Taggering V2 – Privacy Policy</h1>
-      <p><strong>Effective Date:</strong> 7/7/25</p>
+      <h1>Remi Taggering V2 – Privacy Policy</h1>
+      <p><strong>Date:</strong> 7/7/25</p>
     </header>
     <main class="content">
+      <p>
+        Welcome to Remi Taggering V2, a multiplayer game developed using PlayFab and Photon technologies. Your privacy is important to us. This Privacy Policy explains how we collect, use, protect, and disclose your information and what rights you have in relation to your personal data.
+      </p>
+
       <section>
-        <p>Welcome to <em>Remi Taggering V2</em>, a multiplayer game developed using PlayFab and Photon technologies...</p>
-      </section>
-      <section>
-        <h2>1. Information We Collect</h2>
-        <h3>1.1 Account and Identity Information</h3>
+        <h2>1. Information We Collect</h2>
+        <h3>1.1 Account and Identity Information (via PlayFab):</h3>
         <ul>
           <li>UserID (automatically generated)</li>
           <li>Display name or username</li>
-          <li>Email address (if provided)...</li>
+          <li>Email address (if provided for registration or login)</li>
+          <li>IP address</li>
+          <li>Device ID</li>
+          <li>Country or region</li>
+          <li>Login history</li>
+          <li>Linked third-party accounts (e.g., Steam, Google)</li>
         </ul>
-        <h3>1.2 Gameplay and Technical Data</h3>
+
+        <h3>1.2 Gameplay and Technical Data:</h3>
         <ul>
-          <li>Game session data</li>
+          <li>Game session data (start/end times, session duration)</li>
           <li>Player stats, achievements, progress, and leaderboard rankings</li>
-          <li>Matchmaking and connection logs</li>
+          <li>Matchmaking and connection logs (via Photon)</li>
           <li>Error reports and crash logs</li>
-          <li>In‑game purchases and virtual currency balances</li>
+          <li>In-game purchases and virtual currency balances</li>
         </ul>
       </section>
+
       <section>
         <h2>2. How We Use Your Information</h2>
         <ul>
           <li>Account creation and management through PlayFab</li>
           <li>Multiplayer matchmaking and connectivity using Photon services</li>
-          <li>Saving/loading game progress, player stats, preferences</li>
-          <li>Customer support, bug/crash resolution</li>
-          <li>Gameplay analysis to improve experience</li>
-          <li>Enforce rules, terms, anti‑cheat policies</li>
-          <li>Optional email updates/promos (if opted‑in)</li>
+          <li>Saving and loading game progress, player stats, and preferences</li>
+          <li>Providing customer support and resolving bugs or crashes</li>
+          <li>Analyzing gameplay data to improve game experience</li>
+          <li>Enforcing game rules, terms of use, and anti-cheat policies</li>
+          <li>Optional email communications for updates, promotions, or feedback (if opted in)</li>
         </ul>
       </section>
+
       <section>
-        <h2>3. Data Sharing and Third‑Party Services</h2>
-        <h3>3.1 PlayFab (Microsoft)</h3>
-        <p>Used for account management, data storage, analytics, authentication. Complies with Microsoft’s security practices.</p>
-        <h3>3.2 Photon (Exit Games)</h3>
-        <p>Used for real‑time multiplayer. Stores minimal connection/session data for performance and anti‑fraud.</p>
-        <p>We do not sell, rent, or trade your personal information.</p>
+        <h2>3. Data Sharing and Third-Party Services</h2>
+        <h3>3.1 PlayFab (by Microsoft):</h3>
+        <p>Used for account management, data storage, analytics, and user authentication. PlayFab complies with Microsoft’s security and privacy practices.</p>
+        <h3>3.2 Photon (by Exit Games):</h3>
+        <p>Used for real-time multiplayer services and networking. Photon stores minimal connection and session data necessary for performance and anti-fraud measures.</p>
+        <p>We do not sell, rent, or trade your personal information with any third parties.</p>
       </section>
+
       <section>
         <h2>4. Data Protection Measures</h2>
         <ul>
-          <li>Encryption via HTTPS</li>
-          <li>Access controls for authorized personnel only</li>
-          <li>Data minimization principle</li>
-          <li>Regular security audits</li>
+          <li>Encryption: All communication between your device and our servers is encrypted via HTTPS.</li>
+          <li>Access Controls: Only authorized personnel can access user data for support or maintenance.</li>
+          <li>Data Minimization: We collect only what is necessary to operate and improve the game.</li>
+          <li>Regular Security Audits: Our systems and third-party platforms undergo regular security reviews.</li>
         </ul>
       </section>
+
       <section>
         <h2>5. Your Rights and Data Deletion</h2>
         <p>You have the right to:</p>
         <ul>
-          <li>Access the personal data we have stored</li>
-          <li>Correct inaccurate or incomplete info</li>
-          <li>Delete your account and associated data</li>
+          <li>Access the personal data we have stored about you.</li>
+          <li>Correct any inaccurate or incomplete information.</li>
+          <li>Delete your user account and all associated data.</li>
         </ul>
-        <p>To request deletion, email <strong>steinssabers@gmail.com</strong> with subject “Data Deletion Request – Remi Taggering V2”, include your username/UserID. Requests processed within 30 days. Note: Deletion is irreversible.</p>
+        <p>
+          To request data deletion, please contact us:
+          <br>Email: <strong>steinssabers@gmail.com</strong>
+          <br>Subject Line: "Data Deletion Request - Remi Taggering V2"
+          <br>Include your in-game username or UserID. We will verify your request and process the deletion within 30 days.
+        </p>
+        <p><strong>Note:</strong> Deletion is irreversible and will remove all progress, purchases, and associated data.</p>
       </section>
+
       <section>
-        <h2>6. Children’s Privacy</h2>
-        <p>Not intended for users under 13. We do not knowingly collect data from children. If found, it will be deleted promptly.</p>
+        <h2>6. Children's Privacy</h2>
+        <p>
+          Remi Taggering V2 is not intended for users under the age of 13 (or equivalent minimum age in your jurisdiction).
+          We do not knowingly collect data from children. If we learn we have inadvertently collected data from a child, we will delete it promptly.
+        </p>
       </section>
+
       <section>
         <h2>7. Changes to This Privacy Policy</h2>
-        <p>We may update this policy occasionally → changes will include revised effective date and in‑game/website notifications.</p>
+        <p>
+          We may update this Privacy Policy occasionally to reflect changes in legal, technical, or business developments.
+          When we update, we will revise the “Effective Date” and notify users through in-game messages or on our website if required.
+        </p>
       </section>
+
       <section>
         <h2>8. Contact Us</h2>
-        <p>If you have questions or concerns, contact us at <strong>steinssabers@gmail.com</strong>.<br>
-        Developer/Organization: SteinsGames</p>
+        <p>
+          If you have questions, concerns, or requests regarding this Privacy Policy or your data, contact us at:
+          <br><strong>Email:</strong> steinssabers@gmail.com
+          <br><strong>Developer/Organization Name:</strong> SteinsGames
+        </p>
+        <p>Thank you for playing Remi Taggering V2! Your trust is important to us.</p>
       </section>
     </main>
   </div>
+
+  <div class="credits">website made by crypted</div>
 
   <script>
     const enterBtn = document.getElementById('enterBtn')
@@ -105,8 +139,51 @@
         landing.classList.add('hidden')
         policy.classList.remove('hidden')
         policy.classList.add('fade-in')
-      }, 600)
+      }, 500)
     })
+
+    const canvas = document.getElementById('particles')
+    const ctx = canvas.getContext('2d')
+    let particles = []
+
+    function resize() {
+      canvas.width = window.innerWidth
+      canvas.height = window.innerHeight
+    }
+    window.addEventListener('resize', resize)
+    resize()
+
+    function createParticles(count) {
+      particles = []
+      for (let i = 0; i < count; i++) {
+        particles.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          r: Math.random() * 1.5 + 0.5,
+          dx: (Math.random() - 0.5) * 0.3,
+          dy: (Math.random() - 0.5) * 0.3
+        })
+      }
+    }
+
+    function animateParticles() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height)
+      for (let p of particles) {
+        p.x += p.dx
+        p.y += p.dy
+        if (p.x < 0 || p.x > canvas.width) p.dx *= -1
+        if (p.y < 0 || p.y > canvas.height) p.dy *= -1
+
+        ctx.beginPath()
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2)
+        ctx.fillStyle = 'white'
+        ctx.fill()
+      }
+      requestAnimationFrame(animateParticles)
+    }
+
+    createParticles(100)
+    animateParticles()
   </script>
 </body>
 </html>
